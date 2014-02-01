@@ -27,6 +27,8 @@ int cleanup_before_linux (void)
 	 */
 
 	disable_interrupts ();
+	
+	/*susz add for test*/
 
 	/* Since the CM has unknown processor we do not support
 	 * cache operations
